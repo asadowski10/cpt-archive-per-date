@@ -1,11 +1,11 @@
 <?php
 /*
   Plugin Name: CPT Archive Per Date
-  Version: 0.1
+  Version: 0.2
   Plugin URI: https://github.com/asadowski10/cpt-archive-per-date
   Description: Add rewrite rules to WP for archive per date for all post_types
   Author: Alexandre Sadowski
-  Author URI: http://www.beapi.fr
+  Author URI: https://github.com/asadowski10/
   Domain Path: languages
   Network: false
   Text Domain: cpt-apd

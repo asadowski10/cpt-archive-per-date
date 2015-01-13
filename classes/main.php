@@ -13,8 +13,10 @@ class CPT_APD_Main {
 
 	public static function init() {
 		global $wp_rewrite;
-
-		foreach ( get_post_types( array( 'exclude_from_search' => false ) ) as $post_type ) {
+		
+		$post_types = apply_filters( 'cpt_apd_list', get_post_types( array( 'exclude_from_search' => false ) ) );
+		
+		foreach ( $post_types as $post_type ) {
 			//Exclude Attachment
 			if ( $post_type === 'attachment' ) {
 				continue;
